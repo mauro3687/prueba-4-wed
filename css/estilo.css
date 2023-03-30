@@ -1,0 +1,156 @@
+body{
+    background: gray;
+    background-image: cover;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left:0px ;
+    right: 10px;
+    padding-inline-start: 10px;
+    background: coral no-repeat right;
+    border: 25px;
+    
+    margin: 67px;
+    font-size: 50px;
+}
+
+nav{
+    background: whitesmoke no-repeat right;
+    box-sizing: border-box;
+    float:inline-start;
+    padding: 55px;
+    border: 5px solid gainsboro;
+    padding: 5px;
+    margin: 25px;
+}
+nav a{
+    margin: 150px;
+}
+nav img:hover{
+    border: 2px solid red;
+}
+
+.general{
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+}
+.caja{
+
+    display:inline ;
+    float: left;
+
+   
+    background: blue ;
+    width: 300px ;
+    min-height: 600px;
+    
+    margin: 10px;
+    border: 5px solid blanchedalmond;
+
+    
+}
+
+.caja2{
+    
+    display:inline;
+    float: left;
+    
+    background: blue ;
+    min-width: 300px;
+    min-height: 600px;
+    
+    margin: 10px;
+    border: 5px solid blanchedalmond;
+}
+.caja3{
+    display:inline ;
+    float: left;
+    
+    background: blue ;
+    min-width: 300px;
+    min-height: 600px;
+    
+    margin: 10px;
+    border: 5px solid blanchedalmond;
+   
+}
+
+
+.caja4{
+    display: inline;
+    float: left;
+    background: blue ;
+    min-width: 960px;
+    min-height: 300px;
+    
+    margin: 10px;
+    border: 5px solid blanchedalmond;
+
+}
+.caja5{
+    display: inline;
+    float: left;
+    background: blue ;
+    min-width: 1213px;
+    min-height: 300px;
+    
+    margin: 10px;
+    border: 5px solid blanchedalmond;
+
+}
+
+.caja6{
+    display: inline;
+    float:  left;
+    background: url(../css/fondo_caja6.webp) ;
+    background-size: cover;
+    min-width: 960px;
+    min-height: 300px;
+    
+    margin: 10px;
+    border: 5px solid blanchedalmond;
+}
+
+
+aside{
+    display:inline ;
+    float: right;
+    margin: 10px;
+    background: blue ;
+    min-height: 500px;
+    min-width: 200px;
+    
+    
+    
+    border: 5px solid blanchedalmond;
+}
+.aside2{
+    display:inline ;
+    float: right;
+    margin: 10px;
+    background: blue ;
+    min-height: 300px;
+    min-width: 200px;
+    
+    
+    
+    border: 5px solid blanchedalmond;
+}
+
+footer{
+
+    background: blue;
+    text-align: center;
+    border: 2px solid cornflowerblue;
+
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
